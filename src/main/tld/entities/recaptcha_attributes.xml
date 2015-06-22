@@ -1,0 +1,159 @@
+<!-- This is the list of attributes for the recaptcha component -->
+
+<attribute>
+    <name>dataPublicKey</name>
+    <required>true</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+        The public key of recaptcha component
+	</description>
+</attribute>
+
+<attribute>
+    <name>dataPrivateKey</name>
+    <required>true</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+        The private key of recaptcha component
+	</description>
+</attribute>
+
+
+<!-- JS ATTRIBUTES -->
+
+<attribute>
+    <name>dataOnLoad</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+		Recaptcha js parameter onload 
+		Value - name of callback function
+		Optional. The callback function that gets called when all the dependencies have loaded.    
+	</description>
+</attribute>
+
+<attribute>
+    <name>dataRender</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+		Recaptcha js parameter render
+		Values -   explicit , onload 
+		Optional. Whether to render the widget explicitly. Defaults to onload, which will render the widget in the first g-recaptcha tag it finds.	
+	</description>
+</attribute>
+
+<attribute>
+    <name>dataLanguage</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+		Recaptcha js parameter hl language
+		Values -  one of list avaliable language code  
+		Optional. Forces the widget to render in a specific language. Auto-detects the user's language if unspecified.
+	</description>
+</attribute>
+
+<!-- RECAPTCHA TAG PARAMETERS AND RENDER PARAMETERS -->
+
+
+<attribute>
+    <name>dataTheme</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+    	Recaptcha render parameter data-theme
+    	Values - dark , light - default: light
+        Optional. The color theme of the widget.
+    </description>
+</attribute>
+
+<attribute>
+    <name>dataType</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+    	Recaptcha type parameter data-type
+    	Values - audio , image - default: image
+        Optional. The type of CAPTCHA to serve
+    </description>
+</attribute>
+
+<attribute>
+    <name>dataSize</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+    	Recaptcha type parameter data-size
+    	Values - compact , normal - default: normal
+ 		Optional. The size of the widget.   
+ 	</description>
+</attribute>
+
+<attribute>
+    <name>dataTabIndex</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+    	Recaptcha type parameter data-tabindex
+    	Values - compact , normal - default: normal
+ 		Optional. The size of the widget.   
+ 	</description>
+</attribute>
+
+<attribute>
+    <name>dataCallback</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+    	Recaptcha type parameter data-callback
+    	Value - function name
+		Optional. Your callback function that's executed when the user submits a successful CAPTCHA response. 
+		The user's response, g-recaptcha-response, will be the input for your callback function. 	
+	</description>
+</attribute>
+
+<attribute>
+    <name>dataExpiredCallback</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+    	Recaptcha type parameter data-expiredcallback
+    	Value - function name
+		Optional. Your callback function that's executed when the recaptcha response expires and the user needs to solve a new CAPTCHA.
+	</description>
+</attribute>
+
+<attribute>
+    <name>dataClass</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+    	Recaptcha type parameter class
+    	Value - css class values
+		Optional. Method to provide access to class parameter in recatcha component.
+	</description>
+</attribute>
+
+<attribute>
+    <name>dataStyle</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+    	Recaptcha type parameter style
+    	Value - inline style values
+		Optional. Method to provide access to style parameter in recatcha component.
+	</description>
+</attribute>
+
+<attribute>
+    <name>dataIncludeNoScript</name>
+    <required>false</required>
+    <rtexprvalue>false</rtexprvalue>
+    <description>
+    	Recaptcha type parameter for include no script
+    	Value - true or false
+		Optional. Method to provide style when client js no activated.
+	</description>
+</attribute>
+
